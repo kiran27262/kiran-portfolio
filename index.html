@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kiran Kumar S — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="Style.CSS">
+ 
+</head>
+<body>
+
+  <!-- Home -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Kiran Kumar S</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Profile-->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <img src="images/Profile.jpg.jpeg" alt="Kiran Kumar S" class="profile-photo">
+        <div class="hero-content">
+          <h1>Hi, I’m <span class="name-highlight">Kiran Kumar S</span></h1>
+          <p class="tagline">I'm a Full Stack developer and Data Enthusiast transforming ideas into functional UI.</p>
+          <p class="cta-row">
+            <a class="btn" href="Kiran_Resume.pdf" download>Download Resume</a>
+          </p>
+          <div class="hero-social-links">
+            <a href="mailto:csekirankumar1027@gmail.com" aria-label="Email" class="email-icon"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/kiran27262" target="_blank" aria-label="GitHub" class="github-icon"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/kiran-kumar-244605253" target="_blank" aria-label="LinkedIn" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ABOUT" class="about container">
+      <h2>ABOUT ME</h2>
+      <p class="about-intro-text">I’m Kiran Kumar S, a Computer Science and Engineering student from Chennai with hands on experience in data science, data analytics, and web development. 
+        I’ve worked on projects involving IoT and automation, and I enjoy turning ideas into real, functional systems.
+        I’m passionate about learning new technologies, improving my coding skills, and building impactful solutions that make a difference.</p>
+      <div class="about-grid">
+        <div>
+          <h2><strong>WORK EXPERIENCE</strong></h2>
+       <ul>
+       <li>
+       <strong>Data Science Intern – DLK Technologies Pvt. Ltd.</strong><br>
+       <em>May 2024 – July 2024 | Chennai</em><br>
+        Gained hands-on experience in Data Science concepts such as Exploratory Data Analysis (EDA), 
+         Natural Language Processing (NLP), and Data Preprocessing.
+        </li>
+       <li>
+      <strong>Data Analytics Intern – Retech Solution Pvt. Ltd.</strong><br>
+      <em>April 2023 – May 2023 | Chennai</em><br>
+     Worked on Data Analytics tasks including Data Collection, Cleaning, Analysis, Interpretation, 
+      and Visualization to derive actionable insights.
+      </li>
+      </ul>
+        </div>
+        <div>
+          <h3>SKILLS</h3>
+          <div class="tech-list">
+            <span class="tech">C</span>
+            <span class="tech">Pyton</span>
+            <span class="tech">Java(Basics)</span>
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+            <span class="tech">JavaScript</span>
+            <span class="tech">MySQL</span>
+            <span class="tech">UI / Ux</span>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="PROJECTS" class="projects container">
+      <h2>PROJECTS</h2>
+      <div class="projects-grid">
+  <article class="project-card">
+    <div class="project-body">
+      <h4>LPG Gas Leakage Detection System with Auto Cut Off Regulator</h4>
+      <p>
+        A safety automation project using embedded systems and IoT to detect gas leaks 
+        and automatically cut off supply, preventing fire hazards in homes or industries.
+      </p>
+      <div class="badges">
+        <span class="badge">Arduino</span>
+        <span class="badge">IoT</span>
+        <span class="badge">Embedded Systems</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-body">
+      <h4>Portfolio Website</h4>
+      <p>
+        Designed and developed a responsive personal portfolio website using modern 
+        web technologies to showcase my skills, projects, and achievements.
+      </p>
+      <div class="badges">
+        <span class="badge">HTML</span>
+        <span class="badge">CSS</span>
+        <span class="badge">JavaScript</span>
+      </div>
+    </div>
+  </article>
+   </div>
+    </section>
+
+ <!-- CONTACT --> 
+  <section id="contact" class="contact container"> 
+    <h2>CONTACT</h2>
+    <p>Email: <a href="mailto:csekirankumar1027@gmail.com">csekirankumar1027@gmail.com</a></p> 
+    <p>PHONE: <a href="tel:+919363315485">+91 9363315485</a></p> 
+    <p><strong>CONNECT WITH ME:</strong>
+      <a href="https://linkedin.com/in/kiran-kumar-244605253" target="_blank">LinkedIn <i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/kiran27262" target="_blank">GitHub <i class="fab fa-github"></i></a>
+   </p> 
+  </section>
+
+<footer class="site-footer">
+  <div class="container">
+    <small>© <span id="year"></span> Kiran Kumar S — Built with HTML, CSS & JS</small>
+  </div>
+</footer>
+
+<script src="Script.js"></script>
+</body>
+</html>
+
