@@ -4,14 +4,12 @@ This is my professional web portfolio, a single-page application designed to sho
 
 ## 🚀 Live Demo
 
-**[Visit the Portfolio](https://your-netlify-site-name.netlify.app/)**
-*(Note: Please replace the placeholder link above with your actual Netlify deployment URL, like `kirankumar77-portfolio.netlify.app`)*
+**[Visit the Portfolio](https://kirankumar27-portfolio.netlify.app/)**
 
 ## ✨ Features
 
 * **Responsive Design:** Optimized for seamless viewing and interaction across various devices, including mobile phones and desktops.
 * **Clean Structure:** Built with organized HTML, modular CSS, and clear JavaScript for smooth navigation and maintenance.
-* **[Optional: Add a specific feature of your portfolio, e.g., 'Smooth Scroll Navigation' or 'Interactive Resume Section']**
 
 ## 🛠️ Technology Stack
 
@@ -34,32 +32,11 @@ The repository contains the essential files for the portfolio:
 | `Profile.jpg`/`kiran.jpg` | My professional profile picture. |
 | `LinkedIn.jpg`/`Github.jpg` | Icons or assets for social links. |
 
-## ⚙️ Local Development
-
-To run this portfolio locally on your machine, follow these simple steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/kiran27262/kiran-portfolio.git](https://github.com/kiran27262/kiran-portfolio.git)
-    cd kiran-portfolio
-    ```
-2.  **Open the file:** Simply open the **`index.html`** file in your preferred web browser. Since this is a static site, no build steps or local server is required.
 
 ## 📞 Contact
 
 I am actively seeking opportunities and collaborations. Feel free to connect!
 
-* **GitHub:** [Your GitHub Profile Link]
-* **LinkedIn:** [Your LinkedIn Profile Link]
-* **Email:** your.email@example.com
-
-***
-
-### Next Step: How to Add the README
-
-1.  **Copy the entire content** above.
-2.  On your GitHub page (where the screenshot was taken), click the green **"Add a README"** button located beneath the "Add a README" text.
-3.  **Paste** the copied content into the editor box.
-4.  Scroll to the bottom, enter a small commit message (like "Add initial README file"), and click **"Commit new file"**.
-
-This will immediately make your portfolio look more professional and complete!
+* **GitHub:** https://github.com/kiran27262
+* **LinkedIn:** https://www.linkedin.com/in/kiran-kumar-244605253/
+* **Email:** csekirankumar1027@gmail.com
